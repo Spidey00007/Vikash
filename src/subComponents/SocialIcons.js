@@ -88,7 +88,7 @@ const SocialIcons = (props) => {
         animate={{ scale: [0, 1, 1.5, 1] }}
         transition={{ type: "spring", duration: 1, delay: 1.6 }}
       >
-        <a style={{ color: "inherit" }} target="_blank" href={""}>
+        <a style={{ color: "inherit" }} target="_blank" rel="noreferrer" href={""}>
           <LeetCode
             width={25}
             height={25}
